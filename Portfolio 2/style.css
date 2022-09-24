@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    height: 100vh;
+    padding: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+p {
+    padding: 3em 8em;
+}
+
+#buttons {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #F2E9EA;
+}
+
+#buttons a {
+    background-color:  #00AAED;
+    color: black;
+    font-size: 1.2em;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+#buttons a:hover {
+    background-color: #ffca1a;
+}
+
+#aboutPage {
+    background-color: #35a7ff;
+    padding: 10em 5em;
+}
+
+#aboutPage p{
+    font-size: 25px;
+    line-height: 2em;
+}
+
+#workPage {
+    background-color: #ffca1a;
+    text-align: center;
+    justify-content: space-around;
+    padding: 8em 4em;
+}
+
+#workPage a {
+    background-color: #35a7ff;
+    color: black;
+    font-size: 1em;
+    font-weight: 800;
+    padding: 1em 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    text-decoration: none;
+}
+
+#workPage a:hover {
+    background-color: #ffffff;
+}
+
+#workPage h2 {
+    padding-bottom: 4rem
+}
+
+#contactPage {
+    font-size: larger;
+    text-align: center;
+    padding: 4em 2em;
+    background-color: #F2E9EA;;
+}
+
+#contactPage button {
+    margin-top: 2em;
+}
+
+.backgroundColor {
+    background-color: #F2E9EA;;
+}
+
+#aboutPage img {
+    width: 25%;
+    border-radius: 50%;    
+}
+
+div {
+    text-align: center;
+}
